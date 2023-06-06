@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // const age = 13
+        // const pays ='US'
+        // const peutConduireFrance = pays === 'fr' && age >= 18
+        // const peutConduireUS = pays === 'US' && age >= 16
+        // switch (pays){
+        //     case 'FR' : console.log('Je suis en France')
+        //     break
+        //     case 'US': console.log('Je suis en US')
+        //     break;
+        //     default: console.log("je suis dans un pays inconnu")
+        //     break
+        // }
+
+        // const year =2022
+        // const birthyear = prompt('Quel est votre année de naissance')
+        // const age = year - birthyear ;
+        // if (age < 13){
+        //     console.log("L'ilôt")
+        // }
+        // else if (age >=13  && age <= 18){
+        //     console.log("Matrix")
+        // }
+        // else{
+        //     console.log('Eplie')
+        // }
+
+        const a = prompt("donne num 1")
+        const b = prompt("donne num b")
+        const c = a * b 
+        let signe
+        if(isNaN (c)){
+            console.log(`Opération impossible: ${a}x${b}` )
+        }
+        else if (c > 0){
+            signe = 'positif';
+        }
+        else{
+            signe = 'negatif';
+        }
+    console.log(`${a} x ${b} = ${c} est ${signe}`)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
