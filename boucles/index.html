@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    //    const notes=[12, 3, 5, 20];
+    //   for (let i in  notes){
+    //     console.log(notes[i])
+    //   }
+    // const notes={
+    //     a:1.5,
+    //     b:2.3,
+    //     c:5
+    // }
+    // for(let i in notes){
+    //     console.log(notes[i]);
+    // // }
+    // const notes = [12, 16, 18, 17, 8]
+    // const person={
+    //     firstName : 'john',
+    //     lastName: 'Doe'
+    // }
+    // const greeting ='bonjour';
+    // // for(let note of notes){
+    // //     console.log(note);
+    // // }
+    // for (let letter of greeting){
+    //     console.log(letter);
+    // }s
+// My solution
+//     let num = 99;
+
+// if (num <= 10 && num >= 0) {
+//   for (let i = num; i >= 0; i--) {
+//     console.log(i);
+//   }
+// } else {
+
+//   const newNum = prompt("Give me a new number");
+//   num = parseInt(newNum);
+
+//   if (num <= 10 && num >= 0) {
+//     for (let i = num; i >= 0; i--) {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// console.log("Updated num:", num);
+
+
+
+// Solution de l'instructeur
+/* let chiffre = prompt('Entrez un nombre');
+if (chiffre > 10 || chiffre < 0){
+    console.log("Le nombre n'est pas entre 0 et 10")
+}
+else{
+    while(chiffre >= 0){
+        console.log(chiffre)
+        chiffre -= 1
+    }
+} */
+
+//Ma solution
+/* const guess = 8;
+ let chiffre = prompt('Votre chiffre')*1
+if (chiffre == guess){
+    console.log('Tu as gagné');
+}
+else {
+    while( chiffre != guess){
+    chiffre =prompt(' do it again')
+    }
+    if (chiffre == guess){
+    console.log('Tu as gagné');
+}
+} */
+
+//Solution de l'instructeur
+let guess = 8
+let chiffre 
+while(chiffre !== guess){
+    chiffre = prompt('votre chiffre')*1
+    if( chiffre !== guess){
+        console.log('Dommage');
+    }
+}
+console.log('bravo')
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
